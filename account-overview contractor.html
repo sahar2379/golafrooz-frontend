@@ -246,12 +246,12 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link " href="./account-overview.html">
-                        <i class="bi-hammer nav-icon"></i>پیمانکاران
+                        <i class="bi-hammer nav-icon"></i> درخواست پیمانکار
                       </a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link " href="./account-overview.html">
-                        <i class="bi-headset nav-icon"></i>مشاوران 
+                        <i class="bi-headset nav-icon"></i>درخواست مشاوره 
                       </a>
                     </li>
                     <li class="nav-item">
@@ -396,6 +396,22 @@
                   </div>
                   <!-- End Form -->
 
+                  <!-- Form: کد ملی -->
+          <div class="row mb-4">
+            <label for="nationalCodeLabel" class="col-sm-3 col-form-label form-label">کد ملی</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="nationalCode" id="nationalCodeLabel" placeholder="کد ملی">
+            </div>
+          </div>
+
+          <!-- Form: شماره موبایل -->
+          <div class="row mb-4">
+            <label for="mobileNumberLabel" class="col-sm-3 col-form-label form-label">شماره موبایل</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="mobileNumber" id="mobileNumberLabel" placeholder="09xxxxxxxxx">
+            </div>
+          </div>
+
                   <!-- Form -->
                   <div class="js-add-field row mb-4" data-hs-add-field-options='{
                           "template": "#addPhoneFieldTemplate",
@@ -469,6 +485,188 @@
                     </a>
                   </div>
                   <!-- End Add Phone Input Field -->
+                   
+                  
+
+                   <!-- Form: حوزه فعالیت و حرفه -->
+          <div class="row mb-4">
+            <label for="activityFieldLabel" class="col-sm-3 col-form-label form-label">حوزه فعالیت</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" name="activityField" id="activityFieldLabel" placeholder="حوزه فعالیت">
+            </div>
+            <label for="professionLabel" class="col-sm-3 col-form-label form-label">حرفه</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" name="profession" id="professionLabel" placeholder="حرفه">
+            </div>
+          </div>
+
+          <!-- Form: تحصیلات -->
+          <div class="row mb-4">
+            <label for="cityLabel" class="col-sm-3 col-form-label form-label">تحصیلات</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" name="city" id="cityLabel" placeholder="مدرک تحصیلی">
+              <!-- Select -->
+              <div class="tom-select-custom">
+                <select class="js-select-dynamic form-select" data-name="additionlPhoneSelect"
+                  data-hs-tom-select-options='{
+                            "width": "8rem",
+                            "hideSearch": true
+                          }'>
+                          <option value="cycle">سیکل</option>
+                          <option value="diploma">دیپلم</option>
+                          <option value="bachelor">کارشناسی</option>
+                          <option value="master">کارشناسی ارشد</option>
+                          <option value="phd">دکترا</option>
+                </select>
+              </div>
+              <!-- End Select -->
+            </div>
+            <label for="provinceLabel" class="col-sm-3 col-form-label form-label">رشته تحصیلی</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" name="province" id="provinceLabel" placeholder="رشته تحصیلی">
+              <!-- Select -->
+              <div class="tom-select-custom">
+                <select class="js-select-dynamic form-select" data-name="additionlPhoneSelect"
+                  data-hs-tom-select-options='{
+                            "width": "8rem",
+                            "hideSearch": true
+                          }'>
+                          <option value="statistics">آمار</option>
+                          <option value="primary_education">آموزش ابتدایی</option>
+                          <option value="special_education">آموزش و پرورش کودکان استثنایی</option>
+                          <option value="electronics">الکترونیک</option>
+                          <option value="economics">اقتصاد</option>
+                          <option value="ecology">اکولوژی</option>
+                          <option value="mba">ام بی ای (MBA)</option>
+                          <option value="information_security">امنیت اطلاعات</option>
+                          <option value="iranology">ایران‌شناسی</option>
+                          <option value="persian_literature">ادبیات فارسی</option>
+                          <option value="archaeology">باستان‌شناسی</option>
+                          <option value="acting">بازیگری</option>
+                          <option value="electrical_engineering">برق</option>
+                          <option value="urban_planning">برنامه‌ریزی شهری</option>
+                          <option value="biochemistry">بیوشیمی</option>
+                          <option value="biotechnology">بیوتکنولوژی</option>
+                          <option value="nursing">پرستاری</option>
+                          <option value="social_research">پژوهشگری اجتماعی</option>
+                          <option value="petrochemistry">پتروشیمی</option>
+                          <option value="medicine">پزشکی</option>
+                          <option value="sports_medicine">پزشکی ورزشی</option>
+                          <option value="physical_education">تربیت بدنی</option>
+                          <option value="nutrition">تغذیه</option>
+                          <option value="producing">تهیه‌کنندگی</option>
+                          <option value="sociology">جامعه‌شناسی</option>
+                          <option value="geography">جغرافیا</option>
+                          <option value="natural_geography">جغرافیای طبیعی</option>
+                          <option value="publishing">چاپ و نشر</option>
+                          <option value="accounting">حسابداری</option>
+                          <option value="law">حقوق</option>
+                          <option value="automotive">خودروسازی</option>
+                          <option value="hematology">خون‌شناسی</option>
+                          <option value="dentistry">دندانپزشکی</option>
+                          <option value="pharmacy">داروسازی</option>
+                          <option value="veterinary">دامپزشکی</option>
+                          <option value="english_teaching">دبیری زبان انگلیسی</option>
+                          <option value="psychology">روان‌شناسی</option>
+                          <option value="journalism">روزنامه‌نگاری</option>
+                          <option value="geology">زمین‌شناسی</option>
+                          <option value="biology">زیست‌شناسی</option>
+                          <option value="cinema">سینما</option>
+                          <option value="seo">سئو (SEO)</option>
+                          <option value="chemistry">شیمی</option>
+                          <option value="computer_networks">شبکه‌های کامپیوتری</option>
+                          <option value="industries">صنایع</option>
+                          <option value="food_industry">صنایع غذایی</option>
+                          <option value="sound_image">صوت و تصویر</option>
+                          <option value="traditional_medicine">طب سنتی</option>
+                          <option value="industrial_design">طراحی صنعتی</option>
+                          <option value="physiology">ظاهر‌شناسی</option>
+                          <option value="laboratory_sciences">علوم آزمایشگاهی</option>
+                          <option value="communications">علوم ارتباطات</option>
+                          <option value="social_sciences">علوم اجتماعی</option>
+                          <option value="educational_sciences">علوم تربیتی</option>
+                          <option value="animal_sciences">علوم دامی</option>
+                          <option value="political_sciences">علوم سیاسی</option>
+                          <option value="judicial_sciences">علوم قضایی</option>
+                          <option value="computer_sciences">علوم کامپیوتر</option>
+                          <option value="industrial_diving">غواصی صنعتی</option>
+                          <option value="philosophy">فلسفه</option>
+                          <option value="physics">فیزیک</option>
+                          <option value="physiotherapy">فیزیوتراپی</option>
+                          <option value="it">فناوری اطلاعات (IT)</option>
+                          <option value="jurisprudence_law">فقه و حقوق</option>
+                          <option value="quran_hadith">قرآن و حدیث</option>
+                          <option value="commercial_law">قوانین تجارت</option>
+                          <option value="occupational_therapy">کاردرمانی</option>
+                          <option value="entrepreneurship">کارآفرینی</option>
+                          <option value="computer_engineering">کامپیوتر</option>
+                          <option value="library_science">کتابداری</option>
+                          <option value="agriculture">کشاورزی</option>
+                          <option value="shipping">کشتیرانی</option>
+                          <option value="quality_control">کنترول کیفیت</option>
+                          <option value="graphic_design">گرافیک</option>
+                          <option value="tourism">گردشگری</option>
+                          <option value="announcing">گویندگی</option>
+                          <option value="logistics">لجستیک</option>
+                          <option value="logistics_management">مدیریت لجستیک</option>
+                          <option value="midwifery">مامایی</option>
+                          <option value="business_management">مدیریت بازرگانی</option>
+                          <option value="public_management">مدیریت دولتی</option>
+                          <option value="industrial_management">مدیریت صنعتی</option>
+                          <option value="financial_management">مدیریت مالی</option>
+                          <option value="restoration">مرمت آثار تاریخی</option>
+                          <option value="architecture">معماری</option>
+                          <option value="electrical_engineering">مهندسی برق</option>
+                          <option value="biomedical_engineering">مهندسی پزشکی</option>
+                          <option value="civil_engineering">مهندسی عمران</option>
+                          <option value="mechanical_engineering">مهندسی مکانیک</option>
+                          <option value="software_engineering">مهندسی نرم‌افزار</option>
+                          <option value="painting">نقاشی</option>
+                          <option value="theatre">نمایش</option>
+                          <option value="instrument_playing">نوازندگی</option>
+                          <option value="nanotechnology">نانوتکنولوژی</option>
+                          <option value="persian_painting">نگارگری</option>
+                          <option value="law_practice">وکالت</option>
+                          <option value="web_design">وب‌دیزاین</option>
+                          <option value="aerospace">هوافضا</option>
+                          <option value="fine_arts">هنرهای تجسمی</option>
+                          <option value="refrigeration_engineering">یخچال‌سازی</option>
+                          <option value="machine_learning">یادگیری ماشین</option>
+                </select>
+              </div>
+              <!-- End Select -->
+            </div>
+          </div>
+
+          <!-- Form: شهر و استان -->
+          <div class="row mb-4">
+            <label for="cityLabel" class="col-sm-3 col-form-label form-label">شهر</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" name="city" id="cityLabel" placeholder="شهر">
+            </div>
+            <label for="provinceLabel" class="col-sm-3 col-form-label form-label">استان</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" name="province" id="provinceLabel" placeholder="استان">
+            </div>
+          </div>
+
+          <!-- Form: آدرس -->
+          <div class="row mb-4">
+            <label for="addressLabel" class="col-sm-3 col-form-label form-label">آدرس</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="address" id="addressLabel" placeholder="آدرس">
+            </div>
+          </div>
+
+          <!-- Form: کد پستی -->
+          <div class="row mb-4">
+            <label for="postalCodeLabel" class="col-sm-3 col-form-label form-label">کد پستی</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="postalCode" id="postalCodeLabel" placeholder="کد پستی">
+            </div>
+          </div>
+
+          
 
                   <!-- Form -->
                   <div class="row mb-4">
